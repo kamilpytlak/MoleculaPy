@@ -1,0 +1,101 @@
+Molecule ChEMBL ID,Target ChEMBL ID,Target Name,pIC50,Smiles
+CHEMBL3416617,CHEMBL203,Epidermal growth factor receptor erbB1,5.6821456,Error
+CHEMBL3693309,CHEMBL2652,Phosphodiesterase 2A,8.045757,Cc1ccc(OCC(C)(C)O)cc1-c1nnc2c(C)nc3ccc(C(C)C)nc3n12
+CHEMBL3701753,CHEMBL4282,Serine/threonine-protein kinase AKT,8.853872,CC1(O)CC(N)(c2ccc(-c3nc4n(c3-c3ccccc3)COc3ncccc3-4)cc2)C1
+CHEMBL4071827,CHEMBL260,MAP kinase p38 alpha,6.669586,C=CC(=O)Nc1cccc(-c2c[nH]c3nccc(-c4[nH]c(CCCO)nc4-c4ccc(F)cc4)c23)c1
+CHEMBL597956,CHEMBL3979,Peroxisome proliferator-activated receptor delta,6.0,O=C(NCCS(=O)(=O)c1ccc(C(F)(F)F)cn1)c1ccc(C2CCCCC2)cc1
+CHEMBL2057369,CHEMBL3145,PI3-kinase p110-beta subunit,5.5999994,CC(C)(C)NS(=O)(=O)c1cncc(-c2ccc3nc(NC(=O)NCCCn4nnc(C5CC5)n4)nn3c2)c1
+CHEMBL4536934,CHEMBL1795177,Histone-lysine N-methyltransferase SUV39H2,7.737549,COc1cc(C)c(Cl)cc1-c1cn2ccc(N3CCOCC3)cc2n1
+CHEMBL4292435,CHEMBL4895,Tyrosine-protein kinase receptor UFO,6.468521,CN1CCN(Cc2ccc(-c3cn([C@H]4CC[C@H](O)CC4)c4nc(NC5CCCCC5)ncc34)cc2)CC1
+CHEMBL499007,CHEMBL3356,Cytochrome P450 1A2,5.806875,COc1cncc(-c2ccc3c(c2)CCC(=O)C3)c1
+CHEMBL4228281,CHEMBL1985,Glucagon receptor,6.2061443,Cc1c(-c2cc(Cl)cc(Cl)c2)nn(C(C)c2ccc(C(=O)NCCC(=O)O)cc2)c1-c1ccc2occc2c1
+CHEMBL2338049,CHEMBL289,Cytochrome P450 2D6,5.7000003,Fc1ccc(F)c(O[C@H](c2ccccc2)[C@@H]2CCNC2)c1Cl
+CHEMBL4225171,CHEMBL2111363,Histone deacetylase 3/Nuclear receptor corepressor 2 (HDAC3/NCoR2),7.161151,Cc1cc(-c2ccc(F)cc2)nn1Cc1ccc(C(=O)NO)cc1
+CHEMBL50,CHEMBL2487,Beta amyloid A4 protein,4.8153086,O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12
+CHEMBL211845,CHEMBL258,Tyrosine-protein kinase LCK,9.0,COc1ccc(N(C(=O)Oc2c(C)cccc2C)c2ccnc(Nc3ccc(N4CCN(C)CC4)c(F)c3)n2)c(OC)c1
+CHEMBL3353189,CHEMBL3778,Interleukin-1 receptor-associated kinase 4,9.619789,Cl.Cn1cc(NC(=O)c2coc(-c3ccnc(NCC(F)(F)F)c3)n2)c(C(N)=O)n1
+CHEMBL4475076,CHEMBL4523357,Ubiquitin carboxyl-terminal hydrolase 30,6.0,N#CN1CCC(NC(=O)C2CC(=O)N(c3ccccc3)C2)C1
+CHEMBL265836,CHEMBL2028,Somatostatin receptor 3,6.102923,CC(C)NCc1ccc(C[C@@H]2NC(=O)[C@H](Cc3c[nH]c4ccccc34)NC(=O)[C@H](Cc3ccccc3)NC(=O)[C@@H](Cc3ccccc3)NC(=O)[C@@H](CCCCN)NC(=O)[C@H](N)CSSC[C@@H](C(=O)O)NC(=O)[C@H](Cc3ccccc3)NC(=O)[C@@H]([C@@H](C)O)NC2=O)cc1
+CHEMBL4444826,CHEMBL3714029,Lysyl oxidase homolog 2,7.0457573,CS(=O)(=O)c1cc(-c2ccccc2)cc(S(=O)(=O)c2cnc(CN)s2)c1.Cl
+CHEMBL4453984,CHEMBL4247,ALK tyrosine kinase receptor,5.6675615,COc1cc(N2CCC(N3CCN(C)CC3)CC2)ccc1Nc1cc(N2CCC[C@@H](C(=O)NCc3ccc(OC(F)(F)F)cc3)C2)ccn1
+CHEMBL1213841,CHEMBL2039,Monoamine oxidase B,7.5295897,COc1cccc(-c2csc(NN=C3CCCCCC3)n2)c1
+CHEMBL3781535,CHEMBL2535,Glucose transporter,7.09691,COc1ccccc1N1CCN(c2ncnc3c2cnn3-c2ncccc2F)CC1
+CHEMBL2393143,CHEMBL2111367,PI3-kinase p110-alpha/p85-alpha,7.920819,OCC(O)COc1cccc2c1nc(C(F)F)n2-c1nc(N2CCOCC2)nc(N2CCOCC2)n1
+CHEMBL3671872,CHEMBL5697,Egl nine homolog 1,6.6575775,N#Cc1nc(C(=O)NCC(=O)O)c(O)c2c1N(Cc1ccccc1)C(=O)CC2
+CHEMBL3666701,CHEMBL3522,Cytochrome P450 17A1,7.0,COc1cc(NS(C)(=O)=O)ccc1-c1cncnc1C1CCCCC1
+CHEMBL3951253,CHEMBL3973,Fibroblast growth factor receptor 4,7.849858,COc1cc(OC)cc(N(CCNCC(N)=O)c2ccc3ncc(-c4cnn(C)c4)nc3c2)c1
+CHEMBL4100094,CHEMBL3267,PI3-kinase p110-gamma subunit,5.3703866,C[C@H](Nc1nc(N)nc(C(F)F)c1C#N)c1nc2c(F)cccc2c(=O)n1-c1cc[nH]n1
+CHEMBL3655080,CHEMBL2835,Tyrosine-protein kinase JAK1,7.6575775,CN(c1ncnc2[nH]ccc12)[C@H]1C[C@@H](NS(=O)(=O)CC(F)(F)F)C1
+CHEMBL296588,CHEMBL4072,Cathepsin B,5.37059,CC(C)CC(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CC(C)C)[C@@H](O)CC(=O)N[C@@H](C)C(=O)N[C@@H](CC(C)C)[C@@H](O)CC(=O)O)C(C)C)C(C)C
+CHEMBL2159811,CHEMBL4191,Monoglyceride lipase,7.8860564,O=C(NC1CCCCC1)c1cccc(CN2CCN(C(=O)n3nnc4ccccc43)CC2)c1
+CHEMBL1202478,CHEMBL203,Epidermal growth factor receptor erbB1,7.0457573,COc1cc2c(Nc3ccc(Br)cc3F)ncnc2cc1OC/C=C/CN1CCCC1.Cl
+CHEMBL3263260,CHEMBL4015,C-C chemokine receptor type 2,5.89279,COC1COCCC1N[C@@H]1C[C@H]2OC(c3nccs3)C[C@@]2(C(=O)N2CCc3ncc(C(F)(F)F)cc3C2)C1
+CHEMBL3199331,CHEMBL1741215,Sentrin-specific protease 6,4.931814,CCOC(=O)/C(=N\Nc1ncnc2ccccc12)c1ccc(C)cc1
+CHEMBL381739,CHEMBL4644,Melanocortin receptor 3,5.5686364,CCCC[C@@H]1NC(=O)CC[C@@H](C(N)=O)NC(=O)[C@H](Cc2c[nH]c3ccccc23)NC(=O)[C@H](CCCN=C(N)N)NC(=O)[C@@H](Cc2ccccc2)NC(=O)[C@H]2CCCN2C1=O
+CHEMBL2181515,CHEMBL4506,NAD-dependent deacetylase sirtuin 1,4.394695,CC(NS(=O)(=O)c1cccc(/N=C/c2c(O)ccc3ccccc23)c1)c1ccccc1
+CHEMBL4532793,CHEMBL3691,Autotaxin,5.6382723,O=C(COc1cc(Cl)cc(Cl)c1)N1CCN(c2ccc([N+](=O)[O-])cc2)CC1
+CHEMBL297278,CHEMBL258,Tyrosine-protein kinase LCK,6.6197886,Nc1ncnc2c1c(-c1ccc(Oc3ccccc3)cc1)cn2C1CCNC1
+CHEMBL1911388,CHEMBL4235,11-beta-hydroxysteroid dehydrogenase 1,6.806875,O=C(O)C1(c2ccc(F)cc2)C2CC3CC(C2)CC1C3
+CHEMBL3645516,CHEMBL340,Cytochrome P450 3A4,4.5086384,Cc1cc(-c2ccc([C@H](C)N3CC[C@](CC(C)(C)O)(c4ccccc4)OC3=O)cc2)nn(C)c1=O
+CHEMBL3670196,CHEMBL4005,PI3-kinase p110-alpha subunit,6.8827286,CCc1ncnc(N2CCCC2)c1C#Cc1ccc(N)nc1
+CHEMBL4776151,CHEMBL2439,Myeloperoxidase,7.552842,Nc1cc([C@H](CCN[C@@H]2CC[C@@H](c3ccccc3)OC2)c2ccccc2)c2nn[nH]c2n1
+CHEMBL4173676,CHEMBL2148,Tyrosine-protein kinase JAK3,6.333482,CN1CCN(c2cc(Nc3nccc(Nc4ccc(F)c(Cl)c4F)n3)cc(S(C)(=O)=O)c2)CC1
+CHEMBL3656470,CHEMBL4235,11-beta-hydroxysteroid dehydrogenase 1,6.920819,CC(C)CCOc1nc(N2CCC[C@@H](CC(=O)O)C2)ccc1C(=O)NC1CCCCC1
+CHEMBL2409691,CHEMBL280,Matrix metalloproteinase 13,8.327902,C[C@]1(CS(=O)(=O)N2CCC(Oc3ccc(OCc4ccccn4)cc3)CC2)NC(=O)NC1=O
+CHEMBL4792360,CHEMBL211,Muscarinic acetylcholine receptor M2,4.53,O=C(CCN1CCCc2ccccc21)N1CCCC(O)C1
+CHEMBL3633941,CHEMBL203,Epidermal growth factor receptor erbB1,7.5086384,CCNC(=O)Nc1ccc(C(=O)Nc2ccc3ncnc(Nc4ccc(F)c(Cl)c4)c3c2)cc1
+CHEMBL4577258,CHEMBL1974,Tyrosine-protein kinase receptor FLT3,6.99805,CC(=O)O.CNc1nc(Nc2cnc(C#N)c(O[C@@H]3CCCNC3)c2)ncc1-c1cnn(C)c1
+CHEMBL2397342,CHEMBL3772,Metabotropic glutamate receptor 1,6.3814993,C[C@@H]1CN(c2ccc(F)cn2)CCN1C(=O)C12CC3CC(CC(C3)C1)C2
+CHEMBL314317,CHEMBL2094108,Protein farnesyltransferase,8.677781,O=C(CC1CCN(C(=O)c2ccc[n+]([O-])c2)CC1)N1CCC([C@H]2c3ncc(Br)cc3CCc3cc(Cl)cc(Br)c32)CC1
+CHEMBL3121134,CHEMBL2243,Anandamide amidohydrolase,6.35164,Cc1ccc(-c2cc(NC[C@H](O)c3ccccc3)ncn2)cc1
+CHEMBL3115513,CHEMBL2916,Telomerase reverse transcriptase,5.0510983,O=C(CSc1ncccn1)N1N=C(c2cc3ccccc3oc2=O)C[C@@H]1c1ccccc1C(F)(F)F
+CHEMBL3823220,CHEMBL2039,Monoamine oxidase B,5.958607,O=C(/C=C/c1cccc(O)c1)c1ccccc1O
+CHEMBL1531245,CHEMBL1075322,G-protein coupled receptor 55,5.2148,CCCCn1c(=O)[nH]c(=O)c2c1nc(Cn1ncc(Cl)c(Cl)c1=O)n2CCC
+CHEMBL450990,CHEMBL1914,Butyrylcholinesterase,4.9871626,CCN(CCCCCCN1CCN(CCCCCCN(CC)Cc2ccccc2OC)C(=O)C1=O)Cc1ccccc1OC
+CHEMBL1223379,CHEMBL264,Histamine H3 receptor,7.853872,CCOc1ccc(C(c2nnnn2Cc2ccccc2)N2CCCN(C3CCC3)CC2)cc1
+CHEMBL4762847,CHEMBL2828,Casein kinase I delta,4.7801538,CCOC(=O)c1cnc(N)n2nc(-c3cccc(N)c3)nc12
+CHEMBL4592625,CHEMBL1800,Corticotropin releasing factor receptor 1,6.79588,COc1cc(Cl)cc(C)c1Nc1nc2cccc(N(C(C)=O)c3ccc(Cl)cc3)c2n1C.Cl
+CHEMBL4795477,CHEMBL3797,Serine-protein kinase ATM,5.587677,COC[C@@H]1c2cc(OC)ccc2Sc2c(-c3cc(=O)cc(N4CCOCC4)o3)cccc21
+CHEMBL2012817,CHEMBL325,Histone deacetylase 1,8.1549015,CCC(=O)CCCCC[C@@H]1NC(=O)[C@@H](C)n2nncc2[C@H](CC(C)C)NC(=O)[C@H](Cc2c[nH]c3ccccc23)NC1=O
+CHEMBL3942921,CHEMBL3713062,Tissue factor pathway inhibitor,6.60206,CC(=O)N[C@@H](Cc1ccccc1)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](Cc1cnc[nH]1)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@H](C(=O)N[C@@H](Cc1ccccc1)C(=O)N[C@H](C(=O)N[C@@H](CC(=O)O)C(=O)NCC(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)N[C@@H](Cc1ccccc1)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C)C(=O)N[C@@H](Cc1ccccc1)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(N)=O)C(C)C)C(C)C
+CHEMBL1814711,CHEMBL230,Cyclooxygenase-2,4.91364,CC(C(=O)O)c1ccc(C[C@H]2CCC[C@H]2O)cc1
+CHEMBL1302391,CHEMBL237,Kappa opioid receptor,5.1140738,Cc1n[nH]c(C)c1S(=O)(=O)N1CCC(C(=O)N2CCn3c2nc2ccccc23)CC1
+CHEMBL392760,CHEMBL289,Cytochrome P450 2D6,3.707744,NCCc1cn(S(=O)(=O)c2c(Cl)nc3sccn23)c2ccccc12
+CHEMBL3733053,CHEMBL4691,Proteinase activated receptor 4,8.551293,COc1ccc2c(C)c(-c3cn4nc(SC)sc4n3)oc2c1OC
+CHEMBL523286,CHEMBL3024,Serine/threonine-protein kinase PLK1,6.20412,C[C@H](Nc1cc2c(-c3cccc(Cl)c3)noc2cn1)c1ccccc1
+CHEMBL229061,CHEMBL3559,Steryl-sulfatase,4.8860564,COC(=O)c1ccccc1/C=N/NC(=S)NC1CCCCC1
+CHEMBL567584,CHEMBL3772,Metabotropic glutamate receptor 1,6.5228786,Cc1c(-c2ccc3ccccc3c2)nnn1-c1cccnc1
+CHEMBL4785242,CHEMBL2111389,CDK9/cyclin T1,8.09691,CC(=O)N[C@@H]1CCC[C@H](C(=O)Nc2cc(-c3cnn4c3CC(C)(C)CC4)ccn2)C1
+CHEMBL3729491,CHEMBL2598,Protein kinase C iota,7.0,Cc1cc(-c2csc3c(NC[C@@H](N)Cc4ccccc4)nc(-c4ccncc4)nc23)no1
+CHEMBL4846794,CHEMBL215,Arachidonate 5-lipoxygenase,6.036212,C/C(=C\CC[C@]1(C)CCc2cc(O)cc(C)c2O1)CC/C=C/C(=O)O
+CHEMBL2425930,CHEMBL280,Matrix metalloproteinase 13,9.0,COc1ccc(S(=O)(=O)N(CCn2cc(CN(C)S(=O)(=O)c3ccc(F)cc3)nn2)[C@@H](C(=O)NO)C(C)C)cc1
+CHEMBL3657092,CHEMBL5023,p53-binding protein Mdm-2,9.598599,COc1ncc(-c2nc3c(n2C(C)C)C(c2ccc(Cl)c(F)c2)N(c2cc(Cl)c(=O)n(C)c2)C3=O)c(OC)n1
+CHEMBL2408739,CHEMBL4822,Beta-secretase 1,6.935542,CCc1ccc2c(c1)[C@@H](NC[C@@H](O)[C@H](Cc1cc(F)cc(F)c1)NC(C)=O)CS(=O)(=O)C2
+CHEMBL1209085,CHEMBL268,Cathepsin K,5.929962,Cn1cnc2c(C#N)nc(-c3ccc(OCCN4CCNC(=O)C4)c(C(F)(F)F)c3)cc21
+CHEMBL1765212,CHEMBL1908,Cytochrome P450 11B1,5.8900843,O=C1CCc2cc(-c3cncc(F)c3)cc3c2N1CC3
+CHEMBL1927768,CHEMBL3717,Hepatocyte growth factor receptor,5.806597,Cc1cc(C)cc(CC(=O)N[C@@H](Cc2ccccc2)C(=O)Nc2ccc(-c3cn4c(n3)sc3ccccc34)cc2)c1
+CHEMBL2047224,CHEMBL220,Acetylcholinesterase,5.113509,Clc1cccc(CNc2ccnc(NC3CCN(Cc4ccccc4)CC3)n2)c1
+CHEMBL3658241,CHEMBL2434,Interleukin-8 receptor B,6.950782,CC1(C)OB(c2ccc(CSc3ccc(C(=O)Nc4ccc(F)cc4)cn3)cc2)OC1(C)C
+CHEMBL4114410,CHEMBL2007625,Isocitrate dehydrogenase [NADP] cytoplasmic,6.6197886,C[C@H](Nc1ncc(F)c(N2C(=O)OC[C@@H]2[C@@H](C)F)n1)c1cn(-c2ccc(Cl)cc2)cn1
+CHEMBL4558996,CHEMBL1974,Tyrosine-protein kinase receptor FLT3,6.787812,CCN1CCN(c2cc(Nc3ncc(-c4cncnc4)s3)nc(C)n2)CC1.Cl
+CHEMBL4455920,CHEMBL4296013,Interleukin-23 receptor,8.0,CC(=O)N[C@H]1CCSC[C@@H](C(=O)N[C@@H](Cc2ccc(OCCN)cc2)C(=O)N[C@@H](Cc2c[nH]c3ccccc23)C(=O)N[C@@H](CCC(C)C)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CC(N)=O)C(=O)NCC(N)=O)NC(=O)[C@H](CCC(N)=O)NC(=O)[C@H](Cc2c[nH]c3ccccc23)NC(=O)[C@H]([C@@H](C)O)NC(=O)[C@H](CCC(N)=O)NC1=O
+CHEMBL4292798,CHEMBL4662,Proteasome Macropain subunit MB1,8.443698,CC[C@H](C)[C@@H]1C(=O)O[C@H]1C(=O)N[C@H](C(=O)N[C@H](C(=O)NCc1ccccc1)C(C)C)C(C)C
+CHEMBL425543,CHEMBL2334,Caspase-3,7.21467,CC(C)[C@H](NC(=O)Cc1ccccc1)C(=O)NC(CC(=O)O)C(=O)CF
+CHEMBL3785169,CHEMBL1957,Insulin-like growth factor I receptor,6.309804,Nc1ncnc2c1c(-c1cccc(OCCOC3CCCC3)c1)cn2[C@H]1C[C@@H](CN2CCC2)C1
+CHEMBL3301610,CHEMBL240,HERG,4.9625735,CCN1CCN(Cc2ccc(Nc3ncc(F)c(-c4cc(F)c5nc(C)n(C(C)C)c5c4)n3)nc2)CC1
+CHEMBL1927161,CHEMBL240,HERG,4.999133,COc1ccc2nccc([C@@H](O)CN3CCC(NCc4cc5c(cn4)OCCO5)CC3)c2n1
+CHEMBL4793380,CHEMBL2828,Casein kinase I delta,6.293282,CC(C)(C)c1cc(NC(=O)Nc2ccc(Nc3ncnc4c3OCCCN4)cc2)no1
+CHEMBL4076664,CHEMBL4235,11-beta-hydroxysteroid dehydrogenase 1,7.1811147,C[C@@H](c1ccc(C#N)cc1)N1CC[C@](CCC(N)=O)(c2ccc(F)cc2)OC1=O
+CHEMBL3662339,CHEMBL4829,Acetyl-CoA carboxylase 2,7.5228786,CCCN(C)c1ncc(F)c(N2CC[C@@H](Oc3ccc([C@H](C)NC(C)=O)cc3)C2)n1
+CHEMBL4633117,CHEMBL2095226,Integrin alpha-5/beta-1,6.850781,CC1(C)NC(=O)[C@@H](Cc2ccccc2)NC(=O)[C@H](CC(=O)O)NC(=O)CNC(=O)[C@H](CCCNC(=N)N)NC1=O.O=C(O)C(F)(F)F
+CHEMBL4523033,CHEMBL3864,Protein-tyrosine phosphatase 2C,6.7423215,CC1(CN)CCN(c2ncc(Sc3cccnc3C(F)(F)F)c(=O)[nH]2)CC1
+CHEMBL4536149,CHEMBL4898,Neurotrophic tyrosine kinase receptor type 2,6.10902,CCn1c(CCc2ccc(NC(=O)Nc3cc(C)ccc3OC)cc2)nc2ccccc21
+CHEMBL3643268,CHEMBL2842,Serine/threonine-protein kinase mTOR,8.542118,CCc1ncnc(-c2ccc(C(=O)N3CC[C@H](N(C)C)C3)c(Cl)c2)c1C#Cc1ccc(N)nc1
+CHEMBL3719041,CHEMBL4079,G-protein coupled receptor kinase 2,8.49485,CC(C)(Nc1ccc(Cl)c(C(N)=O)c1)C(=O)Nc1nc2c(C(F)(F)F)cc3[nH]ncc3c2s1
+CHEMBL1836103,CHEMBL4561,Neuropeptide Y receptor type 5,7.4609237,COc1ccc(C)cc1S(=O)(=O)NC[C@H]1CC[C@H](Nc2nc3c(s2)CCSc2ccccc2-3)CC1
+CHEMBL4784431,CHEMBL1974,Tyrosine-protein kinase receptor FLT3,7.7721133,COc1cc2ncnc(Oc3ccc(Nc4nccc5[nH]cc(-c6ccc(F)cc6)c(=O)c45)cc3)c2cc1OC
+CHEMBL3645228,CHEMBL4040,MAP kinase ERK2,7.387216,COC[C@@]1(C(=O)Nc2ccc3[nH]nc(-c4ccc(F)cc4)c3c2)CCN(CC(=O)N2CC=C(c3ccc(-c4ncccn4)cc3)CC2)C1
+CHEMBL4206442,CHEMBL2111432,PI3-kinase p110-delta/p85-alpha,6.705534,C[C@H]1COCCN1c1nc(-c2cnc(N)cc2C(F)(F)F)cc(C2(S(C)(=O)=O)CC2)n1
+CHEMBL2019137,CHEMBL205,Carbonic anhydrase II,4.4412913,Nc1oc2ccc(Cl)cc2c(=O)c1-c1ccccc1
+CHEMBL494540,CHEMBL4015,C-C chemokine receptor type 2,8.29243,CCCC1COCCC1N[C@@H]1CC[C@@](C(=O)NCc2cc(C(F)(F)F)cc(C(F)(F)F)c2)(C(C)C)C1
+CHEMBL4645468,CHEMBL3192,Histone deacetylase 8,5.1527357,CCC(=O)CCCCC[C@H](NC(=O)[C@@H]1C[C@]12CCN(C)C2)c1ncc(-c2cc3ccccc3nc2OC)[nH]1
