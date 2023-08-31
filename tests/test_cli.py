@@ -2,7 +2,7 @@ import argparse
 import unittest
 from unittest.mock import patch
 
-from PyChem.cli import parse_args
+from MoleculaPy.cli import parse_args
 
 
 class TestParser(unittest.TestCase):

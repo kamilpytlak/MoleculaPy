@@ -1,11 +1,10 @@
 import argparse
 
-
 def parse_args():
     parser = argparse.ArgumentParser(
-        prog='pychem',
+        prog='MoleculaPy',
         description='Calculate molecular descriptors or fingerprints for molecules provided in a file.',
-        epilog='Thanks for using %(prog)s! :)'
+        epilog='Thanks for using %(prog)\'s! :)'
     )
 
     parser.add_argument('input_file', help='Path to the input file', type=str)

@@ -1,4 +1,4 @@
-from molecule_utils import Molecule
+from MoleculaPy.molecule_utils import Molecule
 
 
 def convert_to_molecule(smiles: str):
