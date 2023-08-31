@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "pychem"
-version = "1.0.0"
+name = "MoleculaPy"
+version = "0.1.0"
 description = ""
 authors = ["Kamil Pytlak"]
 readme = "README.md"
@@ -11,6 +11,8 @@ rdkit = "^2023.3.3"
 pandas = "^2.0.3"
 tqdm = "^4.66.1"
 
+[tool.poetry.scripts]
+moleculapy = "MoleculaPy.moleculapy:main"
 
 [build-system]
 requires = ["poetry-core"]
