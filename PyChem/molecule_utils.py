@@ -37,7 +37,7 @@ class Molecule:
         self.mol = remover.StripMol(self.mol, dontRemoveEverything=True, sanitize=True)
         self.cleaned_smiles = MolToSmiles(self.mol)
 
-    def calculate_descriptors(self) -> Dict[float, float]:
+    def calculate_descriptors(self) -> Dict[str, float]:
         """
         Calculate molecular descriptor using RDKit.
 
@@ -49,7 +49,7 @@ class Molecule:
         desc_dict = CalcMolDescriptors(self.mol)
         return desc_dict
 
-    def calculate_fingerprints(self, fp_type: str) -> Dict[bool, bool]:
+    def calculate_fingerprints(self, fp_type: str, nBits: 2048) -> Dict[str, bool]:
         fp_method = {
             'Atom': AllChem.GetHashedAtomPairFingerprintAsBitVect,
             'MACCS': MACCSkeys.GenMACCSKeys,
@@ -62,7 +62,7 @@ class Molecule:
             raise ValueError(f"Unknown fingerprint type {fp_type}.")
 
         fp_func = fp_method[fp_type]
-        fp = fp_func(self.mol)
+        fp = fp_func(self.mol, nBits=nBits) if fp_type != 'MACCS' else fp_func(self.mol)
 
         fp_list = fp.ToList()
         fp_dict = {f"{fp_type}_{i}": bit for i, bit in enumerate(fp_list)}

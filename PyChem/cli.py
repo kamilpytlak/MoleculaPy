@@ -25,6 +25,10 @@ def parse_args():
                         default=True,
                         help='(Optional) Remove salts from SMILE.',
                         type=bool)
+    parser.add_argument('--n_bits',
+                        default=2048,
+                        help='(Optional) Number of bits of a given fingerprints type.',
+                        type=int)
 
     args = parser.parse_args()
     return args

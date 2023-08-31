@@ -35,7 +35,7 @@ def main():
 
     elif args.method == 'fingerprints':
         tqdm.pandas(desc=f"Calculating {args.fp_type} fingerprints...")
-        fingerprints_df = moles.progress_apply(lambda mol: mol.calculate_fingerprints(args.fp_type))
+        fingerprints_df = moles.progress_apply(lambda mol: mol.calculate_fingerprints(args.fp_type, args.n_bits))
         fingerprints_df = pd.DataFrame(fingerprints_df.to_list(), index=fingerprints_df.index)
 
         final_df = pd.merge(smiles_df, fingerprints_df, how='left', left_index=True, right_index=True)
