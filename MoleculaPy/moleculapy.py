@@ -1,14 +1,25 @@
+import logging
+import os
 import os.path
 import sys
+import time
 
-from cli import parse_args
-from helpers import convert_to_molecule
+from MoleculaPy.cli import parse_args
+from MoleculaPy.helpers import convert_to_molecule
 
 import pandas as pd
 from tqdm import tqdm
 
 
 def main():
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s %(levelname)s: %(message)s',
+        handlers=[
+            logging.FileHandler(f"{os.getcwd()}/logs/{time.strftime('%Y%m%d-%H%M%S')}")
+        ]
+    )
+
     args = parse_args()
 
     if not os.path.exists(args.input_file):
