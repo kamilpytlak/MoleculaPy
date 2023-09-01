@@ -2,7 +2,7 @@ import os
 import os.path
 import sys
 
-from MoleculaPy.cli import parse_args
+from MoleculaPy.cli import _parse_args
 from MoleculaPy.helpers import setup_logging, convert_to_molecule
 from MoleculaPy.helpers import LOG_FULL_PATH
 
@@ -11,7 +11,7 @@ from tqdm import tqdm
 
 
 def main():
-    args = parse_args()
+    args = _parse_args()
 
     if not os.path.exists(args.input_file):
         print(f"The path {args.input_file} is not specified in your system.")
