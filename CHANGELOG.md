@@ -2,6 +2,12 @@
 
 ---
 
+## 1.0.1
+Released on September 1, 2023
+
+### Added
+* README.md
+
 ## 1.0.0
 Released on September 1, 2023.
 

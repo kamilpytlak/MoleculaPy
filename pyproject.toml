@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "MoleculaPy"
-version = "1.0.0"
+version = "1.0.1"
 description = "A command-line application that utilizes the RDKit library to compute molecular descriptors and fingerprints, aiding in the analysis and characterization of chemical structures"
 readme = 'README.md'
 license = 'MIT'
