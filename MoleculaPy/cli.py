@@ -3,11 +3,11 @@ import argparse
 from MoleculaPy.helpers import check_extension
 
 
-def parse_args():
+def _parse_args():
     parser = argparse.ArgumentParser(
         prog='MoleculaPy',
         description='Calculate molecular descriptors and fingerprints for molecules provided in a CSV file.',
-        epilog='Thanks for using %(prog)\'s! :)'
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
 
     parser.add_argument('input_file',
@@ -28,12 +28,12 @@ def parse_args():
                         type=str)
     parser.add_argument('--remove_salt',
                         action=argparse.BooleanOptionalAction,
-                        default=True,
+                        default='--remove_salt',
                         help='(Optional) Remove salts from SMILE.',
                         type=bool)
     parser.add_argument('--n_bits',
                         default=2048,
-                        help='(Optional) Number of bits of a given fingerprints type.',
+                        help='(Optional) Number of bits of a given fingerprints type',
                         type=int)
 
     args = parser.parse_args()
