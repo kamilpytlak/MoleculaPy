@@ -12,3 +12,4 @@ Released on September 1, 2023.
     - removing salts from molecules
     - 209 molecular descriptors from the RDKit library
     - four types of fingerprints: n-dimensional Atom, Morgan, Topological, RDKit and 166-dimensional MACCS
+    - logging
