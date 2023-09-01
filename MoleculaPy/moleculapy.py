@@ -1,25 +1,16 @@
-import logging
 import os
 import os.path
 import sys
-import time
 
 from MoleculaPy.cli import parse_args
-from MoleculaPy.helpers import convert_to_molecule
+from MoleculaPy.helpers import setup_logging, convert_to_molecule
+from MoleculaPy.helpers import LOG_FULL_PATH
 
 import pandas as pd
 from tqdm import tqdm
 
 
 def main():
-    logging.basicConfig(
-        level=logging.INFO,
-        format='%(asctime)s %(levelname)s: %(message)s',
-        handlers=[
-            logging.FileHandler(f"{os.getcwd()}/logs/{time.strftime('%Y%m%d-%H%M%S')}")
-        ]
-    )
-
     args = parse_args()
 
     if not os.path.exists(args.input_file):
@@ -28,6 +19,12 @@ def main():
 
     smiles_df = pd.read_csv(args.input_file)
     smiles_df.rename(columns=lambda x: x.title(), inplace=True)
+
+    if 'Smiles' not in smiles_df.columns:
+        print('The file doesn\'t contain the column named Smiles.')
+        sys.exit()
+
+    setup_logging()
 
     tqdm.pandas(desc='Converting SMILES to mol objects...')
     moles = smiles_df['Smiles'].progress_apply(convert_to_molecule).dropna()
@@ -51,6 +48,8 @@ def main():
 
         final_df = pd.merge(smiles_df, fingerprints_df, how='left', left_index=True, right_index=True)
         final_df.to_csv(args.output_file, index=False)
+
+    print(f"Logs were saved in {LOG_FULL_PATH}")
 
 
 if __name__ == '__main__':

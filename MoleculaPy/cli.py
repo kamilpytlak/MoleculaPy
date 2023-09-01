@@ -1,14 +1,21 @@
 import argparse
 
+from MoleculaPy.helpers import check_extension
+
+
 def parse_args():
     parser = argparse.ArgumentParser(
         prog='MoleculaPy',
-        description='Calculate molecular descriptors or fingerprints for molecules provided in a file.',
+        description='Calculate molecular descriptors and fingerprints for molecules provided in a CSV file.',
         epilog='Thanks for using %(prog)\'s! :)'
     )
 
-    parser.add_argument('input_file', help='Path to the input file', type=str)
-    parser.add_argument('output_file', help='Path to the output file', type=str)
+    parser.add_argument('input_file',
+                        help='Path to the input file',
+                        type=lambda x: check_extension(x))
+    parser.add_argument('output_file',
+                        help='Path to the output file',
+                        type=lambda x: check_extension(x))
     parser.add_argument('--method',
                         choices=['descriptors', 'fingerprints'],
                         default='descriptors',
