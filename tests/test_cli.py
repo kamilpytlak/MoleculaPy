@@ -2,7 +2,7 @@ import argparse
 import unittest
 from unittest.mock import patch
 
-from PyChem.cli import parse_args
+from MoleculaPy.cli import _parse_args
 
 
 class TestParser(unittest.TestCase):
@@ -13,7 +13,7 @@ class TestParser(unittest.TestCase):
                                            fp_type='Morgan',
                                            remove_salt=True))
     def test_default_args(self, *args):
-        args = parse_args()
+        args = _parse_args()
         self.assertEqual(args.method, 'descriptors')
         self.assertEqual(args.fp_type, 'Morgan')
         self.assertTrue(args.remove_salt)

@@ -2,7 +2,7 @@ import unittest
 
 from rdkit.Chem import MolToSmiles
 
-from PyChem.molecule_utils import Molecule
+from MoleculaPy.molecule_utils import Molecule
 
 
 class TestMolecule(unittest.TestCase):

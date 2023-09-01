@@ -1,16 +1,22 @@
 [tool.poetry]
-name = "pychem"
+name = "MoleculaPy"
 version = "1.0.0"
-description = ""
+description = "A command-line application that utilizes the RDKit library to compute molecular descriptors and fingerprints, aiding in the analysis and characterization of chemical structures"
+readme = 'README.md'
+license = 'MIT'
 authors = ["Kamil Pytlak"]
-readme = "README.md"
+repository = 'https://github.com/kamilpytlak/MoleculaPy'
+keywords = ['cli', 'fingerprints', 'rdkit', 'chemoinformatics', 'qsar', 'molecular-descriptors']
+include = ['CHANGELOG.md', 'LICENSE.md']
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.9"
 rdkit = "^2023.3.3"
 pandas = "^2.0.3"
 tqdm = "^4.66.1"
 
+[tool.poetry.scripts]
+moleculapy = "MoleculaPy.moleculapy:main"
 
 [build-system]
 requires = ["poetry-core"]

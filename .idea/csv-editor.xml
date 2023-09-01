@@ -3,14 +3,14 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="\PyChem\output.csv">
+        <entry key="\MoleculaPy\data\smiles_desc_output.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\data\smiles_sample.csv">
+        <entry key="\MoleculaPy\data\smiles_sample.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
