@@ -3,35 +3,14 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="\data\smiles_desc_output.csv">
+        <entry key="\MoleculaPy\data\smiles_desc_output.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\data\smiles_fing_Atom_2048_output.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\smiles_fing_MACCS_output.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\smiles_fing_Morgan_1024_output.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\smiles_sample.csv">
+        <entry key="\MoleculaPy\data\smiles_sample.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
