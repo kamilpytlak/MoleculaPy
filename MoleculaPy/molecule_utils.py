@@ -83,3 +83,10 @@ class Molecule:
         self.logger.info(f"Calculated fingerprint for SMILES {self.smiles}.")
 
         return fp_dict
+
+
+smiles = "COC1=C(C=C2C(=C1)CC(C2=O)CC3CCN(CC3)CC4=CC=CC=C4)OC"
+ex_molecule = Molecule(smiles)
+ex_molecule.remove_salt()
+
+print(ex_molecule.calculate_descriptors())
