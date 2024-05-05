@@ -1,13 +1,13 @@
 import os
 import os.path
 import sys
-
-from MoleculaPy.cli import _parse_args
-from MoleculaPy.helpers import setup_logging, convert_to_molecule
-from MoleculaPy.helpers import LOG_FULL_PATH
+from pathlib import Path
 
 import pandas as pd
 from tqdm import tqdm
+
+from MoleculaPy.cli import _parse_args
+from MoleculaPy.helpers import setup_logging, convert_to_molecule
 
 
 def main():
@@ -24,7 +24,8 @@ def main():
         print('The file doesn\'t contain the column named Smiles.')
         sys.exit()
 
-    setup_logging()
+    LOG_DIR_PATH = Path(f"{os.path.dirname(os.path.abspath(args.input_file))}")
+    setup_logging(LOG_DIR_PATH)
 
     tqdm.pandas(desc='Converting SMILES to mol objects...')
     moles = smiles_df['Smiles'].progress_apply(convert_to_molecule).dropna()
@@ -49,7 +50,7 @@ def main():
         final_df = pd.merge(smiles_df, fingerprints_df, how='left', left_index=True, right_index=True)
         final_df.to_csv(args.output_file, index=False)
 
-    print(f"Logs were saved in {LOG_FULL_PATH}")
+    print(f"Logs were saved in {LOG_DIR_PATH}")
 
 
 if __name__ == '__main__':

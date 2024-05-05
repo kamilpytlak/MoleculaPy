@@ -1,26 +1,24 @@
 import argparse
 import logging
+import os.path
+import time
 from typing import Union
 
 from MoleculaPy.molecule_utils import Molecule
-from pathlib import Path
-import time
-import os.path
-
-LOG_DIR_PATH = Path(f"{os.path.dirname(os.path.abspath(__file__))}/logs")
-LOG_FILE_PATH = Path(f"{time.strftime('%Y%m%d-%H%M%S')}.log")
-LOG_FULL_PATH = LOG_DIR_PATH.joinpath(LOG_FILE_PATH)
 
 
-def setup_logging():
+def setup_logging(log_dir_path: str):
     """
     Set up logging configuration for the application.
     """
+    log_save_path = os.path.join(log_dir_path, f"{time.strftime('%Y%m%d-%H%M%S')}.log")
     logging.basicConfig(
+        encoding="utf-8",
         level=logging.INFO,
         format='%(asctime)s %(levelname)s: %(message)s',
         handlers=[
-            logging.FileHandler(LOG_FULL_PATH)
+            logging.StreamHandler(),
+            logging.FileHandler(log_save_path)
         ]
     )
 
