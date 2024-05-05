@@ -79,7 +79,7 @@ class Molecule:
             fp = fp_func(self.mol, nBits=n_bits)
 
         fp_list = fp.ToList()
-        fp_dict = {f"{fp_type}_{i}": int(bit) for i, bit in enumerate(fp_list)}
+        fp_dict = {f"{fp_type}_{i}": int(bit) for i, bit in enumerate(fp_list, 1)}
         self.logger.info(f"Calculated fingerprint for SMILES {self.smiles}.")
 
         return fp_dict

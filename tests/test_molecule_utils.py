@@ -1,7 +1,5 @@
 import unittest
 
-from rdkit.Chem import MolToSmiles
-
 from MoleculaPy.molecule_utils import Molecule
 
 

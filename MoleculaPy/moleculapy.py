@@ -50,7 +50,7 @@ def main():
         final_df = pd.merge(smiles_df, fingerprints_df, how='left', left_index=True, right_index=True)
         final_df.to_csv(args.output_file, index=False)
 
-    print(f"Logs were saved in {LOG_DIR_PATH}")
+    print(f"Result and log files were saved in {LOG_DIR_PATH}")
 
 
 if __name__ == '__main__':

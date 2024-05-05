@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\MoleculaPy\data\smiles_fing_atom_1024_output.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\MoleculaPy\data\smiles_sample.csv">
           <value>
             <Attribute>
