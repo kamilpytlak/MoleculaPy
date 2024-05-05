@@ -2,7 +2,7 @@
 
 ---
 
-## 1.1.1
+## 1.1.2
 Released on May 5, 2024
 
 ### Changed
