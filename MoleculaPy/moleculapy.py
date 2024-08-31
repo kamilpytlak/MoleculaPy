@@ -2,12 +2,12 @@ import os
 import os.path
 import sys
 
-from MoleculaPy.cli import _parse_args
-from MoleculaPy.helpers import setup_logging, convert_to_molecule
-from MoleculaPy.helpers import LOG_FULL_PATH
-
 import pandas as pd
 from tqdm import tqdm
+
+from MoleculaPy.cli import _parse_args
+from MoleculaPy.helpers import LOG_FULL_PATH
+from MoleculaPy.helpers import setup_logging, convert_to_molecule
 
 
 def main():

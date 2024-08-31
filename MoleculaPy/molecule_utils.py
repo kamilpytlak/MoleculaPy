@@ -1,7 +1,7 @@
 import logging
 from typing import Dict
 
-from rdkit.Chem import MolFromSmiles, MolToSmiles, SaltRemover, AllChem, MACCSkeys, RDKFingerprint
+from rdkit.Chem import MolFromSmiles, MolToSmiles, SaltRemover, rdFingerprintGenerator
 from rdkit.Chem.Descriptors import CalcMolDescriptors
 
 
@@ -55,13 +55,14 @@ class Molecule:
         self.logger.info(f"Calculated descriptors for SMILES: {self.smiles}")
         return desc_dict
 
-    def calculate_fingerprints(self, fp_type: str, n_bits: int = 2048) -> Dict[str, bool]:
+    def calculate_fingerprints(self, fp_type: str, n_bits: int = 2048) -> Dict[str, int]:
         fp_method = {
-            'Atom': AllChem.GetHashedAtomPairFingerprintAsBitVect,
-            'MACCS': MACCSkeys.GenMACCSKeys,
-            'Morgan': AllChem.GetMorganFingerprintAsBitVect,
-            'RDKit': RDKFingerprint,
-            'Topological': AllChem.GetHashedTopologicalTorsionFingerprintAsBitVect
+            'Atom': rdFingerprintGenerator.GetAtomPairGenerator(fpSize=n_bits),
+            'Morgan': rdFingerprintGenerator.GetMorganGenerator(radius=2, fpSize=n_bits),
+            'FeatureMorgan': rdFingerprintGenerator.GetMorganGenerator(radius=2, fpSize=n_bits,
+                                                                       atomInvariantsGenerator=rdFingerprintGenerator.GetMorganFeatureAtomInvGen()),
+            'RDKit': rdFingerprintGenerator.GetRDKitFPGenerator(fpSize=n_bits),
+            'Topological': rdFingerprintGenerator.GetTopologicalTorsionGenerator(fpSize=n_bits)
         }
 
         if fp_type not in fp_method:
@@ -70,23 +71,10 @@ class Molecule:
         if n_bits < 1:
             raise ValueError(f"n_bits cannot be less than 1 (n_bits: {n_bits}).")
 
-        fp_func = fp_method[fp_type]
-        if fp_type == 'Morgan':
-            fp = fp_func(self.mol, 2, nBits=n_bits)
-        elif fp_type == 'MACCS':
-            fp = fp_func(self.mol)
-        else:
-            fp = fp_func(self.mol, nBits=n_bits)
+        fp = fp_method[fp_type].GetFingerprint(self.mol)
 
         fp_list = fp.ToList()
         fp_dict = {f"{fp_type}_{i}": int(bit) for i, bit in enumerate(fp_list)}
         self.logger.info(f"Calculated fingerprint for SMILES {self.smiles}.")
 
         return fp_dict
-
-
-smiles = "COC1=C(C=C2C(=C1)CC(C2=O)CC3CCN(CC3)CC4=CC=CC=C4)OC"
-ex_molecule = Molecule(smiles)
-ex_molecule.remove_salt()
-
-print(ex_molecule.calculate_descriptors())
