@@ -22,7 +22,7 @@ def _parse_args():
                         help='(Optional) Calculation method: descriptors or fingeprints',
                         type=str)
     parser.add_argument('--fp_type',
-                        choices=['Atom', 'MACCS', 'Morgan', 'Topological', 'RDKit'],
+                        choices=['Atom', 'Morgan', 'Feature Morgan', 'Topological', 'RDKit'],
                         default='Morgan',
                         help='(Optional) Fingerprint type',
                         type=str)
