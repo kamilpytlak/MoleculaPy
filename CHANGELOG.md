@@ -2,6 +2,18 @@
 
 ---
 
+## 1.1.2
+Released on May 5, 2024
+
+### Changed
+* Fixed a bug with event capture (logging) preventing the program from running in the console
+
+## 1.1.0
+Released on May 5, 2024
+
+### Changed
+* Updated dependencies to Python 3.9+ compatible versions
+
 ## 1.0.1
 Released on September 1, 2023
 

@@ -1,11 +1,11 @@
 import argparse
 import logging
-import os.path
-import time
-from pathlib import Path
 from typing import Union
 
 from MoleculaPy.molecule_utils import Molecule
+from pathlib import Path
+import time
+import os.path
 
 LOG_DIR_PATH = Path(f"{os.path.dirname(os.path.abspath(__file__))}/logs")
 LOG_FILE_PATH = Path(f"{time.strftime('%Y%m%d-%H%M%S')}.log")
