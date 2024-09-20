@@ -10,10 +10,10 @@ keywords = ['cli', 'fingerprints', 'rdkit', 'chemoinformatics', 'qsar', 'molecul
 include = ['CHANGELOG.md', 'LICENSE.md']
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.11"
 rdkit = "^2024.3.5"
 pandas = "^2.2.2"
-tqdm = "^4.66.4"
+tqdm = "^4.66.5"
 
 [tool.poetry.scripts]
 moleculapy = "MoleculaPy.moleculapy:main"
